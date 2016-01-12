@@ -1,0 +1,5 @@
+/usr/local/etc/snmp
+
+snmptrapd -Lf /home/sand/Desktop/snmptrap.log
+
+snmp-server trap link ietf
